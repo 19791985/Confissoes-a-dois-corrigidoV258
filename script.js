@@ -22,7 +22,8 @@ titleStartBtn.onclick = () => {
 
 startBtn.onclick = () => {
   introScreen.classList.remove("active");
-  phaseSummaryScreen.classList.add("active");
+  quizContainer.classList.add("active");
+  showQuestion();
 };
 
 continueBtn.onclick = () => {
